@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar:before{
+    background: #0b0a0a21;
+    width: 100%;
+    height: 14%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    opacity: 4.5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    right: 60px;
+}.navbar ul li a{
+    font-family: 'Roboto', sans-serif;
+color: rgb(253, 251, 251);
+text-decoration: none;
+font-size: 21px;
+letter-spacing: 2px;
+cursor: pointer;
+
+}
+.navbar ul li a:hover::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: rgb(247, 201, 142);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+.navbar ul li a:hover::after{
+width: 100%;
+
+}
+h2{
+    color: rgb(254, 251, 251);
+    margin-left: 90px;
+    margin-top: 22px;
+    font-size: 40px;
+}
+.top{
+    font-size: 15px;
+    word-spacing: 20px;
+}
+.container{
+    width: 100vw;
+    height: 97.1vh;
+    background-image: linear-gradient(rgba(0,0,0,0.34),rgba(0,0,0,0.34)), url("contents/car.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+
+    text-align: center;
+    color: aliceblue;
+   
+    
+   
+    
+}
+ h3{
+    margin-bottom: 25px;
+    font-size: 36px;
+    color: rgb(56, 53, 50);
+   
+    
+}
+ h1{
+font-size: 45px;
+width: 1750px;
+word-spacing: 18px;
+letter-spacing: 5px;
+position: relative;
+right: 220px;
+}
+
+p{
+    margin-top: 40px;
+    font-size: 23px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    width: 850px;
+    line-height: 40px;
+    position: relative;
+   left: 200px;
+    color: aliceblue;
+    letter-spacing: 3px;
+}
+button{
+    width:300px;
+    height: 40px;
+    font-size: 16px;
+   left: 70px;
+transition: 0.5s;
+font-weight: 300;
+}
+.btn{
+
+background-color: transparent;
+border: 2px solid #fff;
+margin-right: 110px;
+position: relative;
+right: 75px;
+color: #fff;
+}
+.btn:hover{
+    background-color: rgb(65, 59, 51);
+    cursor: pointer;
+    border: 5px solid rgb(165, 163, 160) ;
+}
